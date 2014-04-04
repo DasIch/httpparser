@@ -1,6 +1,9 @@
 httpparser
 ==========
 
+.. image:: https://travis-ci.org/DasIch/httpparser.svg?branch=master
+   :target: https://travis-ci.org/DasIch/httpparser
+
 httpparser is a pythonic binding to the http-parser_ library used by node.js_,
 which provides a secure, fast, incremental HTTP parser.
 
