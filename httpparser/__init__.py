@@ -7,10 +7,7 @@
     :license: BSD, see LICENSE.rst for details
 """
 import sys
-try:
-    from enum import Enum
-except ImportError: # < 3.4
-    from flufl.enum import Enum
+from enum import Enum
 from contextlib import contextmanager
 from collections import namedtuple
 from weakref import WeakKeyDictionary
